@@ -1,0 +1,48 @@
+/** JavaRushDark v0.1 Chrome
+ *  
+ *  https://github.com/anatol-s/JavaRushDark
+ *  Author: Anatol_s https://github.com/anatol-s
+ */
+
+
+body {
+    background-color: #555!important;
+  }
+
+/* красный текст */
+._red {
+	color: #cc7833!important;
+  }
+
+/* фразы Амиго */
+.amigo {
+    color: #3778cc!important;
+  }
+
+/* цвет ссылки для chrome */
+a:-webkit-any-link {
+    color: #6da3bd!important;
+  }
+
+/* название лекции */
+h2 {
+	color: #390!important;
+  }
+
+/* заголовок таблицы */
+td.s-header {
+    color: #25A8A3!important;
+  }
+
+/* Затемнение картинок с примерами */
+img.cartoon, img.cartoon7, img.cartoon11, img.cartoonX {
+	-webkit-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+	transition: all 300ms;
+	opacity: 0.6;
+  }
+img.cartoon:hover, img.cartoon7:hover, img.cartoon11:hover, img.cartoonX:hover {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+	opacity: .99;
+  }
