@@ -4,7 +4,7 @@
  *  Author: Anatol_s https://github.com/anatol-s
  */
 
-/* i really want this to be global */
+@-moz-document domain("javarush.ru") {
 
 body {
     background-color: #555!important;
@@ -47,3 +47,5 @@ img.cartoon:hover, img.cartoon7:hover, img.cartoon11:hover, img.cartoonX:hover {
     filter: grayscale(0);
 	opacity: .99;
   }
+
+}
