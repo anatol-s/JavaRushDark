@@ -1,9 +1,10 @@
 /** JavaRushDark v0.1 Chrome
- *  
+ *  https://userstyles.org/styles/111550/javarushdark
  *  https://github.com/anatol-s/JavaRushDark
  *  Author: Anatol_s https://github.com/anatol-s
  */
 
+/* i really want this to be global */
 
 body {
     background-color: #555!important;
