@@ -100,7 +100,7 @@ body {
   
 /* меню профиля */
 .profile-left-menu {
-    background-color: #555!important;
+    background-color: #444!important;
     border-radius: 5px;
     padding: 12px 7px;
   }
@@ -121,13 +121,8 @@ body {
   }
 
 /* цвет ссылки */
-a:link {
+a:link, a:visited {
     color: #06a!important;
-  }
-
-/* цвет посещенной ссылки */
-a:visited {
-    color: #02a!important;
   }
 
 /* цвет кнопки входа */
